@@ -1,0 +1,929 @@
+ZebraID V2 Natural Biography Data
+======================================================================
+
+100 TEMPLATES
+----------------------------------------------------------------------
+1. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+2. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+3. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+4. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+5. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+6. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+7. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+8. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+9. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+10. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+11. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+12. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+13. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+14. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+15. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+16. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+17. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+18. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+19. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+20. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+21. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+22. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+23. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+24. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+25. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+26. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+27. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+28. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+29. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+30. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+31. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+32. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+33. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+34. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+35. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+36. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+37. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+38. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+39. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+40. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+41. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+42. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+43. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+44. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+45. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+46. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+47. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+48. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+49. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+50. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+51. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+52. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+53. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+54. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+55. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+56. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+57. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+58. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+59. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+60. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+61. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+62. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+63. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+64. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+65. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+66. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+67. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+68. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+69. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+70. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+71. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+72. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+73. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+74. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+75. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+76. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+77. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+78. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+79. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+80. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+81. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+82. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+83. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+84. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+85. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+86. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+87. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+88. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+89. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+90. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+91. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+92. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+93. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+94. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+95. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+96. I'm [FNAME]. I live over in [LOCATION], where I work as [ARTICLE_JOB]. I originally went to school for [EDUCATION], so [CAREER_REASON]. Outside of work, [RELATIONSHIP], and I [WEEKEND]. We also spend plenty of time with [PET]. When I'm not doing that, you can usually find me [HOBBY] or trying to track down [FOOD] in town.
+97. My name's [FNAME], and I'm based in [LOCATION]. I work as [ARTICLE_JOB], which ended up being a pretty natural fit after studying [EDUCATION]. [CAREER_REASON_CAP]. Outside of work, [RELATIONSHIP]. I [WEEKEND], usually with [PET] somewhere nearby. I also spend way too much time [HOBBY] and looking for [FOOD].
+98. I'm [FNAME], from [LOCATION]. These days I work as [ARTICLE_JOB]. I studied [EDUCATION], and [CAREER_REASON]. When I'm off the clock, [RELATIONSHIP]. I [WEEKEND], hang out with [PET], and usually squeeze in some time for [HOBBY]. I'm also always on the lookout for [FOOD].
+99. I'm [FNAME]. Home for me is [LOCATION], and I make a living as [ARTICLE_JOB]. My background is in [EDUCATION], so [CAREER_REASON]. Life outside work is pretty straightforward: [RELATIONSHIP], I [WEEKEND], and [PET] tends to be part of the routine. If I get a quiet evening, I'm usually [HOBBY] or figuring out where to get [FOOD].
+100. I'm [FNAME], and I live in [LOCATION]. I work as [ARTICLE_JOB] after studying [EDUCATION]. For me, [CAREER_REASON]. Outside the office, [RELATIONSHIP]. I [WEEKEND] and spend a lot of time with [PET]. The rest of my free time usually goes toward [HOBBY] or hunting down [FOOD].
+
+100 FIRST NAMES
+----------------------------------------------------------------------
+1. James
+2. Michael
+3. John
+4. Robert
+5. David
+6. William
+7. Richard
+8. Joseph
+9. Thomas
+10. Christopher
+11. Charles
+12. Daniel
+13. Matthew
+14. Anthony
+15. Mark
+16. Steven
+17. Andrew
+18. Donald
+19. Joshua
+20. Paul
+21. Kevin
+22. Kenneth
+23. Brian
+24. Timothy
+25. Ronald
+26. Jason
+27. George
+28. Edward
+29. Jeffrey
+30. Jacob
+31. Ryan
+32. Nicholas
+33. Gary
+34. Eric
+35. Jonathan
+36. Stephen
+37. Larry
+38. Justin
+39. Benjamin
+40. Scott
+41. Brandon
+42. Samuel
+43. Alexander
+44. Gregory
+45. Patrick
+46. Jack
+47. Frank
+48. Raymond
+49. Dennis
+50. Aaron
+51. Tyler
+52. Jerry
+53. Jose
+54. Nathan
+55. Adam
+56. Henry
+57. Zachary
+58. Douglas
+59. Peter
+60. Noah
+61. Ethan
+62. Kyle
+63. Christian
+64. Jeremy
+65. Austin
+66. Keith
+67. Sean
+68. Terry
+69. Roger
+70. Dylan
+71. Walter
+72. Gerald
+73. Jordan
+74. Gabriel
+75. Carl
+76. Bryan
+77. Jesse
+78. Logan
+79. Lawrence
+80. Elijah
+81. Arthur
+82. Bruce
+83. Harold
+84. Billy
+85. Liam
+86. Alan
+87. Juan
+88. Joe
+89. Mason
+90. Lucas
+91. Randy
+92. Willie
+93. Wayne
+94. Vincent
+95. Caleb
+96. Albert
+97. Luke
+98. Isaac
+99. Bradley
+100. Cameron
+
+100 LOCATIONS
+----------------------------------------------------------------------
+1. New York, New York
+2. Los Angeles, California
+3. Chicago, Illinois
+4. Houston, Texas
+5. Phoenix, Arizona
+6. Philadelphia, Pennsylvania
+7. San Antonio, Texas
+8. San Diego, California
+9. Dallas, Texas
+10. Fort Worth, Texas
+11. Jacksonville, Florida
+12. Austin, Texas
+13. San Jose, California
+14. Charlotte, North Carolina
+15. Columbus, Ohio
+16. Indianapolis, Indiana
+17. San Francisco, California
+18. Seattle, Washington
+19. Denver, Colorado
+20. Nashville, Tennessee
+21. Oklahoma City, Oklahoma
+22. Washington, District of Columbia
+23. El Paso, Texas
+24. Las Vegas, Nevada
+25. Boston, Massachusetts
+26. Detroit, Michigan
+27. Louisville, Kentucky
+28. Portland, Oregon
+29. Memphis, Tennessee
+30. Baltimore, Maryland
+31. Milwaukee, Wisconsin
+32. Albuquerque, New Mexico
+33. Fresno, California
+34. Tucson, Arizona
+35. Sacramento, California
+36. Atlanta, Georgia
+37. Kansas City, Missouri
+38. Mesa, Arizona
+39. Raleigh, North Carolina
+40. Colorado Springs, Colorado
+41. Miami, Florida
+42. Omaha, Nebraska
+43. Virginia Beach, Virginia
+44. Long Beach, California
+45. Oakland, California
+46. Minneapolis, Minnesota
+47. Bakersfield, California
+48. Tulsa, Oklahoma
+49. Tampa, Florida
+50. Aurora, Colorado
+51. Arlington, Texas
+52. Wichita, Kansas
+53. Cleveland, Ohio
+54. New Orleans, Louisiana
+55. Henderson, Nevada
+56. Honolulu, Hawaii
+57. Anaheim, California
+58. Orlando, Florida
+59. Lexington, Kentucky
+60. Stockton, California
+61. Newark, New Jersey
+62. Riverside, California
+63. Irvine, California
+64. Corpus Christi, Texas
+65. Santa Ana, California
+66. Cincinnati, Ohio
+67. Greensboro, North Carolina
+68. Pittsburgh, Pennsylvania
+69. St. Paul, Minnesota
+70. Durham, North Carolina
+71. Jersey City, New Jersey
+72. Lincoln, Nebraska
+73. North Las Vegas, Nevada
+74. Plano, Texas
+75. Gilbert, Arizona
+76. Anchorage, Alaska
+77. Madison, Wisconsin
+78. Reno, Nevada
+79. Chandler, Arizona
+80. St. Louis, Missouri
+81. Chula Vista, California
+82. Fort Wayne, Indiana
+83. Buffalo, New York
+84. Lubbock, Texas
+85. Laredo, Texas
+86. Port St. Lucie, Florida
+87. St. Petersburg, Florida
+88. Toledo, Ohio
+89. Glendale, Arizona
+90. Winston-Salem, North Carolina
+91. Irving, Texas
+92. Chesapeake, Virginia
+93. Garland, Texas
+94. Scottsdale, Arizona
+95. Boise, Idaho
+96. Richmond, Virginia
+97. Frisco, Texas
+98. Cape Coral, Florida
+99. McKinney, Texas
+100. Huntsville, Alabama
+
+100 CAREER PROFILES
+----------------------------------------------------------------------
+1. software developer | computer science | getting to build useful tools and solve technical problems is exactly the kind of work I wanted to do
+2. cybersecurity analyst | cybersecurity | helping protect systems and data gives me the kind of responsibility I was looking for
+3. data analyst | data science | turning messy information into useful answers is the part of the job I enjoy most
+4. web developer | web development | creating things people can actually use online is pretty much what drew me to the field
+5. network administrator | information technology | keeping systems connected and reliable fits the kind of hands-on technical work I like
+6. systems administrator | information technology | making sure everything behind the scenes keeps running smoothly is work I genuinely enjoy
+7. database administrator | information systems | organizing and protecting important data ended up being a really good fit for me
+8. cloud engineer | computer engineering | building scalable systems in the cloud is exactly the direction I wanted my career to take
+9. QA engineer | software engineering | finding problems before users do is the kind of detail-oriented work I naturally gravitate toward
+10. product manager | business and technology | helping turn ideas into products people actually want is what keeps the job interesting for me
+11. project manager | business administration | bringing people and timelines together is where I feel most useful
+12. UX designer | user experience design | making technology easier and more intuitive for people is what I care about most
+13. graphic designer | graphic design | getting to communicate ideas visually is pretty much my ideal kind of work
+14. technical writer | technical communication | taking complicated ideas and making them understandable is something I have always enjoyed
+15. IT support specialist | information technology | solving everyday technology problems for people is the part of the field I like most
+16. business analyst | business analytics | figuring out how organizations can work better is exactly the kind of problem solving I wanted to do
+17. financial analyst | finance | understanding how numbers shape business decisions is what originally pulled me into the field
+18. accountant | accounting | working with numbers and helping keep things organized turned out to suit me really well
+19. auditor | accounting | digging into details and making sure things add up is the kind of work I naturally enjoy
+20. actuary | actuarial science | using math to understand risk is pretty much the perfect mix of things I like
+21. marketing specialist | marketing | figuring out how to connect products with the right audience is what makes the work fun for me
+22. sales representative | business | building relationships and helping people find the right solution is what I enjoy most about the job
+23. recruiter | human resources | helping people find opportunities that fit them is the part of the job that feels most rewarding
+24. human resources specialist | human resources management | helping teams work better together is the kind of people-focused work I wanted
+25. operations manager | operations management | keeping a complicated organization moving smoothly is the challenge I enjoy
+26. office manager | business administration | being the person who keeps everything organized and on track fits me really well
+27. teacher | education | helping students understand something they struggled with is still the best part of my job
+28. school counselor | counseling | being able to support students through important decisions is why I wanted to do this work
+29. librarian | library science | helping people find information and creating a welcoming place to learn is exactly what I hoped to do
+30. professor | my academic field | teaching and continuing to learn at the same time is pretty much my dream combination
+31. research assistant | research methods | getting to investigate questions that do not have obvious answers is what I enjoy most
+32. lab technician | laboratory science | working carefully with experiments and real data is the kind of hands-on science I like
+33. biologist | biology | studying how living systems work has been something I wanted to do for a long time
+34. chemist | chemistry | getting to understand how materials behave at a basic level is what keeps me interested
+35. physicist | physics | working on problems that explain how the world works is exactly why I chose the field
+36. environmental scientist | environmental science | doing work that can help communities and the environment is what makes the career meaningful to me
+37. civil engineer | civil engineering | getting to work on infrastructure people depend on every day is exactly what I hoped for
+38. mechanical engineer | mechanical engineering | designing and improving real physical systems is the kind of problem solving I enjoy
+39. electrical engineer | electrical engineering | working with technology at the hardware level has always been the part that interested me most
+40. industrial engineer | industrial engineering | finding smarter ways for systems and processes to work is what I like about the field
+41. architect | architecture | getting to turn an idea into a real space people use is pretty much why I chose this career
+42. urban planner | city and regional planning | getting to help shape the local community is pretty much my dream job
+43. surveyor | surveying and geomatics | doing precise fieldwork that directly affects real projects suits me really well
+44. construction manager | construction management | seeing a project go from plans to something real is what makes the job satisfying
+45. electrician | electrical technology | working with my hands and solving practical problems is exactly what I wanted
+46. plumber | plumbing technology | doing skilled work that people genuinely depend on gives me a lot of satisfaction
+47. carpenter | carpentry | building something tangible from scratch is the kind of work I have always liked
+48. welder | welding technology | working with my hands and seeing the result of my work right away is what I enjoy
+49. HVAC technician | HVAC technology | fixing real problems and keeping homes and businesses comfortable is rewarding work for me
+50. mechanic | automotive technology | I have always liked figuring out how machines work and getting them running right again
+51. registered nurse | nursing | being able to help people directly when they need it most is why I chose the field
+52. physical therapist | physical therapy | helping people get back to doing things they thought they had lost is the best part of the work
+53. occupational therapist | occupational therapy | helping people regain independence in everyday life is what makes the job meaningful
+54. pharmacist | pharmacy | combining science with direct patient care is exactly what I wanted from a career
+55. dental hygienist | dental hygiene | working closely with patients and helping them stay healthy is what I like about the job
+56. medical assistant | medical assisting | being part of a healthcare team and helping patients through their visits suits me well
+57. radiology technician | radiologic technology | working with medical technology while helping patients is a great fit for me
+58. paramedic | emergency medical services | being able to help in urgent situations is exactly why I wanted to do this work
+59. dietitian | nutrition | helping people make practical changes that improve their health is what drew me to the career
+60. health educator | public health | helping people understand how to make healthier choices is the part of the work I care about most
+61. social worker | social work | helping people navigate difficult situations is the reason I wanted to enter the field
+62. counselor | counseling psychology | being able to listen and help people work through difficult moments is deeply meaningful to me
+63. case manager | social services | helping people connect with the resources they need is what keeps the work meaningful
+64. paralegal | legal studies | doing detailed legal work and helping cases move forward is a good fit for the way I think
+65. legal assistant | legal studies | keeping complex legal work organized and moving is the kind of detail-focused job I enjoy
+66. court reporter | court reporting | being responsible for an accurate record of important proceedings suits my attention to detail
+67. journalist | journalism | getting to ask questions and tell people what is really happening is what drew me to the field
+68. editor | English and communications | helping turn rough ideas into clear writing is the part of the work I enjoy most
+69. photographer | photography | getting to notice moments other people might miss is what I love about the work
+70. videographer | film and media production | telling stories visually is pretty much what I always wanted to do
+71. animator | animation | bringing characters and ideas to life is the kind of creative work I have always loved
+72. musician | music | being able to make a living creating and performing music still feels pretty special to me
+73. audio engineer | audio production | working behind the scenes to make things sound right is the technical-creative mix I wanted
+74. event planner | hospitality management | turning a complicated plan into a great experience for people is what I enjoy most
+75. chef | culinary arts | getting to make something people immediately enjoy is what keeps me excited about the work
+76. baker | baking and pastry arts | working with my hands and creating something people look forward to is what I love
+77. restaurant manager | hospitality management | keeping a busy team running smoothly is the kind of fast-paced challenge I enjoy
+78. barista | hospitality | I like the mix of routine, craft, and getting to know regular customers
+79. hotel manager | hospitality management | creating a smooth experience for guests while running a busy operation suits me really well
+80. travel agent | tourism management | helping people put together trips they are excited about is the best part of the job
+81. flight attendant | hospitality and aviation | getting to travel while helping people feel comfortable along the way is what drew me in
+82. logistics coordinator | supply chain management | figuring out how to get the right things to the right place at the right time is oddly satisfying to me
+83. supply chain analyst | supply chain management | improving how products move through complex systems is the kind of puzzle I enjoy
+84. warehouse manager | operations management | keeping a large operation organized and efficient is the kind of responsibility I like
+85. procurement specialist | supply chain management | finding the right balance of cost, quality, and timing is what makes the job interesting
+86. real estate agent | real estate | helping people make one of their biggest decisions is what makes the job feel worthwhile
+87. property manager | property management | keeping buildings running well and tenants taken care of is the kind of practical work I like
+88. insurance agent | business | helping people understand complicated choices and protect what matters to them is meaningful work to me
+89. claims adjuster | insurance and risk management | investigating what happened and finding a fair resolution fits the way I like to work
+90. loan officer | finance | helping people understand their options around major financial decisions is what I enjoy
+91. investment associate | finance | learning how markets work and helping with long-term financial decisions is what pulled me into the field
+92. economist | economics | trying to understand why people and markets behave the way they do is what keeps me interested
+93. statistician | statistics | finding patterns in data and turning them into something useful is exactly the work I wanted
+94. GIS specialist | geographic information science | combining maps, data, and real-world planning problems is pretty much a perfect fit for me
+95. meteorologist | meteorology | weather has fascinated me for as long as I can remember, so getting to study it professionally is pretty great
+96. park ranger | environmental studies | getting to spend time outdoors while helping protect public land is about as good a fit as I could ask for
+97. fitness trainer | exercise science | helping people get stronger and feel better in their own bodies is what I enjoy most
+98. sports analyst | sports analytics | combining sports with numbers and strategy is exactly the kind of work I wanted
+99. customer success specialist | business | helping customers actually get value from what they bought is the part of the job I care about
+100. content creator | digital media | getting to make things that inform or entertain people is what keeps the work fun
+
+100 RELATIONSHIP DESCRIPTIONS
+----------------------------------------------------------------------
+1. I'm single and pretty happy keeping life simple right now
+2. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+3. I'm engaged to be married next fall
+4. I've been married for a couple of years now
+5. I'm married, and my spouse and I are usually planning our next little weekend trip
+6. I'm in a long-term relationship, and we spend a lot of our free time together
+7. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+8. I've been with my partner for several years, and we have a pretty comfortable routine together
+9. I'm single, but I spend a lot of time with a close group of friends
+10. I'm married with one young child, so life outside work stays pretty busy
+11. I'm single and pretty happy keeping life simple right now
+12. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+13. I'm engaged to be married next fall
+14. I've been married for a couple of years now
+15. I'm married, and my spouse and I are usually planning our next little weekend trip
+16. I'm in a long-term relationship, and we spend a lot of our free time together
+17. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+18. I've been with my partner for several years, and we have a pretty comfortable routine together
+19. I'm single, but I spend a lot of time with a close group of friends
+20. I'm married with one young child, so life outside work stays pretty busy
+21. I'm single and pretty happy keeping life simple right now
+22. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+23. I'm engaged to be married next fall
+24. I've been married for a couple of years now
+25. I'm married, and my spouse and I are usually planning our next little weekend trip
+26. I'm in a long-term relationship, and we spend a lot of our free time together
+27. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+28. I've been with my partner for several years, and we have a pretty comfortable routine together
+29. I'm single, but I spend a lot of time with a close group of friends
+30. I'm married with one young child, so life outside work stays pretty busy
+31. I'm single and pretty happy keeping life simple right now
+32. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+33. I'm engaged to be married next fall
+34. I've been married for a couple of years now
+35. I'm married, and my spouse and I are usually planning our next little weekend trip
+36. I'm in a long-term relationship, and we spend a lot of our free time together
+37. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+38. I've been with my partner for several years, and we have a pretty comfortable routine together
+39. I'm single, but I spend a lot of time with a close group of friends
+40. I'm married with one young child, so life outside work stays pretty busy
+41. I'm single and pretty happy keeping life simple right now
+42. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+43. I'm engaged to be married next fall
+44. I've been married for a couple of years now
+45. I'm married, and my spouse and I are usually planning our next little weekend trip
+46. I'm in a long-term relationship, and we spend a lot of our free time together
+47. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+48. I've been with my partner for several years, and we have a pretty comfortable routine together
+49. I'm single, but I spend a lot of time with a close group of friends
+50. I'm married with one young child, so life outside work stays pretty busy
+51. I'm single and pretty happy keeping life simple right now
+52. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+53. I'm engaged to be married next fall
+54. I've been married for a couple of years now
+55. I'm married, and my spouse and I are usually planning our next little weekend trip
+56. I'm in a long-term relationship, and we spend a lot of our free time together
+57. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+58. I've been with my partner for several years, and we have a pretty comfortable routine together
+59. I'm single, but I spend a lot of time with a close group of friends
+60. I'm married with one young child, so life outside work stays pretty busy
+61. I'm single and pretty happy keeping life simple right now
+62. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+63. I'm engaged to be married next fall
+64. I've been married for a couple of years now
+65. I'm married, and my spouse and I are usually planning our next little weekend trip
+66. I'm in a long-term relationship, and we spend a lot of our free time together
+67. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+68. I've been with my partner for several years, and we have a pretty comfortable routine together
+69. I'm single, but I spend a lot of time with a close group of friends
+70. I'm married with one young child, so life outside work stays pretty busy
+71. I'm single and pretty happy keeping life simple right now
+72. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+73. I'm engaged to be married next fall
+74. I've been married for a couple of years now
+75. I'm married, and my spouse and I are usually planning our next little weekend trip
+76. I'm in a long-term relationship, and we spend a lot of our free time together
+77. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+78. I've been with my partner for several years, and we have a pretty comfortable routine together
+79. I'm single, but I spend a lot of time with a close group of friends
+80. I'm married with one young child, so life outside work stays pretty busy
+81. I'm single and pretty happy keeping life simple right now
+82. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+83. I'm engaged to be married next fall
+84. I've been married for a couple of years now
+85. I'm married, and my spouse and I are usually planning our next little weekend trip
+86. I'm in a long-term relationship, and we spend a lot of our free time together
+87. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+88. I've been with my partner for several years, and we have a pretty comfortable routine together
+89. I'm single, but I spend a lot of time with a close group of friends
+90. I'm married with one young child, so life outside work stays pretty busy
+91. I'm single and pretty happy keeping life simple right now
+92. I'm dating someone seriously, and we try to make time for each other whenever work slows down
+93. I'm engaged to be married next fall
+94. I've been married for a couple of years now
+95. I'm married, and my spouse and I are usually planning our next little weekend trip
+96. I'm in a long-term relationship, and we spend a lot of our free time together
+97. I'm recently engaged, so wedding planning has become a surprisingly big part of my life
+98. I've been with my partner for several years, and we have a pretty comfortable routine together
+99. I'm single, but I spend a lot of time with a close group of friends
+100. I'm married with one young child, so life outside work stays pretty busy
+
+100 WEEKEND ACTIVITIES
+----------------------------------------------------------------------
+1. spend most weekends hiking local trails
+2. usually spend Saturday mornings at the farmers market
+3. try to get outside for a long bike ride whenever the weather cooperates
+4. spend a lot of weekends rock climbing
+5. usually meet friends for pickup basketball
+6. like taking short road trips to towns I haven't visited before
+7. spend weekends checking out coffee shops and bookstores
+8. usually make time for a long run and a lazy brunch
+9. like camping whenever I can get a free weekend
+10. spend a lot of Saturdays working on small DIY projects
+11. usually catch a movie and try a new restaurant
+12. like going to local concerts or small live shows
+13. spend time kayaking when the weather is good
+14. usually play tennis with a couple of friends
+15. like taking my dog to different parks around town
+16. spend weekends visiting family nearby
+17. usually host a game night with friends
+18. like going to museums or neighborhood events
+19. spend free weekends skiing during the winter
+20. usually take it easy with a book and a long walk
+21. spend most weekends hiking local trails
+22. usually spend Saturday mornings at the farmers market
+23. try to get outside for a long bike ride whenever the weather cooperates
+24. spend a lot of weekends rock climbing
+25. usually meet friends for pickup basketball
+26. like taking short road trips to towns I haven't visited before
+27. spend weekends checking out coffee shops and bookstores
+28. usually make time for a long run and a lazy brunch
+29. like camping whenever I can get a free weekend
+30. spend a lot of Saturdays working on small DIY projects
+31. usually catch a movie and try a new restaurant
+32. like going to local concerts or small live shows
+33. spend time kayaking when the weather is good
+34. usually play tennis with a couple of friends
+35. like taking my dog to different parks around town
+36. spend weekends visiting family nearby
+37. usually host a game night with friends
+38. like going to museums or neighborhood events
+39. spend free weekends skiing during the winter
+40. usually take it easy with a book and a long walk
+41. spend most weekends hiking local trails
+42. usually spend Saturday mornings at the farmers market
+43. try to get outside for a long bike ride whenever the weather cooperates
+44. spend a lot of weekends rock climbing
+45. usually meet friends for pickup basketball
+46. like taking short road trips to towns I haven't visited before
+47. spend weekends checking out coffee shops and bookstores
+48. usually make time for a long run and a lazy brunch
+49. like camping whenever I can get a free weekend
+50. spend a lot of Saturdays working on small DIY projects
+51. usually catch a movie and try a new restaurant
+52. like going to local concerts or small live shows
+53. spend time kayaking when the weather is good
+54. usually play tennis with a couple of friends
+55. like taking my dog to different parks around town
+56. spend weekends visiting family nearby
+57. usually host a game night with friends
+58. like going to museums or neighborhood events
+59. spend free weekends skiing during the winter
+60. usually take it easy with a book and a long walk
+61. spend most weekends hiking local trails
+62. usually spend Saturday mornings at the farmers market
+63. try to get outside for a long bike ride whenever the weather cooperates
+64. spend a lot of weekends rock climbing
+65. usually meet friends for pickup basketball
+66. like taking short road trips to towns I haven't visited before
+67. spend weekends checking out coffee shops and bookstores
+68. usually make time for a long run and a lazy brunch
+69. like camping whenever I can get a free weekend
+70. spend a lot of Saturdays working on small DIY projects
+71. usually catch a movie and try a new restaurant
+72. like going to local concerts or small live shows
+73. spend time kayaking when the weather is good
+74. usually play tennis with a couple of friends
+75. like taking my dog to different parks around town
+76. spend weekends visiting family nearby
+77. usually host a game night with friends
+78. like going to museums or neighborhood events
+79. spend free weekends skiing during the winter
+80. usually take it easy with a book and a long walk
+81. spend most weekends hiking local trails
+82. usually spend Saturday mornings at the farmers market
+83. try to get outside for a long bike ride whenever the weather cooperates
+84. spend a lot of weekends rock climbing
+85. usually meet friends for pickup basketball
+86. like taking short road trips to towns I haven't visited before
+87. spend weekends checking out coffee shops and bookstores
+88. usually make time for a long run and a lazy brunch
+89. like camping whenever I can get a free weekend
+90. spend a lot of Saturdays working on small DIY projects
+91. usually catch a movie and try a new restaurant
+92. like going to local concerts or small live shows
+93. spend time kayaking when the weather is good
+94. usually play tennis with a couple of friends
+95. like taking my dog to different parks around town
+96. spend weekends visiting family nearby
+97. usually host a game night with friends
+98. like going to museums or neighborhood events
+99. spend free weekends skiing during the winter
+100. usually take it easy with a book and a long walk
+
+100 PET DESCRIPTIONS
+----------------------------------------------------------------------
+1. our golden retriever, Barnaby
+2. my rescue dog, Milo
+3. our black lab, Cooper
+4. my beagle, Winston
+5. our cat, Luna
+6. my orange cat, Archie
+7. our tabby cat, Olive
+8. my dog, Teddy
+9. our border collie, Scout
+10. my husky, Nova
+11. our corgi, Biscuit
+12. my cat, Pepper
+13. our dachshund, Frankie
+14. my mutt, Charlie
+15. our poodle, Maple
+16. my cat, Theo
+17. our Australian shepherd, Finn
+18. my bulldog, Gus
+19. our greyhound, Ruby
+20. my cat, Mochi
+21. our golden retriever, Barnaby
+22. my rescue dog, Milo
+23. our black lab, Cooper
+24. my beagle, Winston
+25. our cat, Luna
+26. my orange cat, Archie
+27. our tabby cat, Olive
+28. my dog, Teddy
+29. our border collie, Scout
+30. my husky, Nova
+31. our corgi, Biscuit
+32. my cat, Pepper
+33. our dachshund, Frankie
+34. my mutt, Charlie
+35. our poodle, Maple
+36. my cat, Theo
+37. our Australian shepherd, Finn
+38. my bulldog, Gus
+39. our greyhound, Ruby
+40. my cat, Mochi
+41. our golden retriever, Barnaby
+42. my rescue dog, Milo
+43. our black lab, Cooper
+44. my beagle, Winston
+45. our cat, Luna
+46. my orange cat, Archie
+47. our tabby cat, Olive
+48. my dog, Teddy
+49. our border collie, Scout
+50. my husky, Nova
+51. our corgi, Biscuit
+52. my cat, Pepper
+53. our dachshund, Frankie
+54. my mutt, Charlie
+55. our poodle, Maple
+56. my cat, Theo
+57. our Australian shepherd, Finn
+58. my bulldog, Gus
+59. our greyhound, Ruby
+60. my cat, Mochi
+61. our golden retriever, Barnaby
+62. my rescue dog, Milo
+63. our black lab, Cooper
+64. my beagle, Winston
+65. our cat, Luna
+66. my orange cat, Archie
+67. our tabby cat, Olive
+68. my dog, Teddy
+69. our border collie, Scout
+70. my husky, Nova
+71. our corgi, Biscuit
+72. my cat, Pepper
+73. our dachshund, Frankie
+74. my mutt, Charlie
+75. our poodle, Maple
+76. my cat, Theo
+77. our Australian shepherd, Finn
+78. my bulldog, Gus
+79. our greyhound, Ruby
+80. my cat, Mochi
+81. our golden retriever, Barnaby
+82. my rescue dog, Milo
+83. our black lab, Cooper
+84. my beagle, Winston
+85. our cat, Luna
+86. my orange cat, Archie
+87. our tabby cat, Olive
+88. my dog, Teddy
+89. our border collie, Scout
+90. my husky, Nova
+91. our corgi, Biscuit
+92. my cat, Pepper
+93. our dachshund, Frankie
+94. my mutt, Charlie
+95. our poodle, Maple
+96. my cat, Theo
+97. our Australian shepherd, Finn
+98. my bulldog, Gus
+99. our greyhound, Ruby
+100. my cat, Mochi
+
+100 HOBBIES
+----------------------------------------------------------------------
+1. tinkering with vintage bicycles in the garage
+2. working on an old car I probably spend too much money on
+3. building small electronics projects
+4. playing guitar badly but enthusiastically
+5. trying to get better at photography
+6. reading history books
+7. building custom PCs
+8. learning enough woodworking to make decent furniture
+9. playing chess online
+10. collecting vinyl records
+11. experimenting with new recipes
+12. working through a never-ending list of home improvement projects
+13. playing pickup soccer
+14. drawing and doing digital art
+15. watching old horror movies
+16. learning a new language
+17. gardening on my patio
+18. playing strategy games
+19. editing little travel videos
+20. trying to improve my golf swing
+21. tinkering with vintage bicycles in the garage
+22. working on an old car I probably spend too much money on
+23. building small electronics projects
+24. playing guitar badly but enthusiastically
+25. trying to get better at photography
+26. reading history books
+27. building custom PCs
+28. learning enough woodworking to make decent furniture
+29. playing chess online
+30. collecting vinyl records
+31. experimenting with new recipes
+32. working through a never-ending list of home improvement projects
+33. playing pickup soccer
+34. drawing and doing digital art
+35. watching old horror movies
+36. learning a new language
+37. gardening on my patio
+38. playing strategy games
+39. editing little travel videos
+40. trying to improve my golf swing
+41. tinkering with vintage bicycles in the garage
+42. working on an old car I probably spend too much money on
+43. building small electronics projects
+44. playing guitar badly but enthusiastically
+45. trying to get better at photography
+46. reading history books
+47. building custom PCs
+48. learning enough woodworking to make decent furniture
+49. playing chess online
+50. collecting vinyl records
+51. experimenting with new recipes
+52. working through a never-ending list of home improvement projects
+53. playing pickup soccer
+54. drawing and doing digital art
+55. watching old horror movies
+56. learning a new language
+57. gardening on my patio
+58. playing strategy games
+59. editing little travel videos
+60. trying to improve my golf swing
+61. tinkering with vintage bicycles in the garage
+62. working on an old car I probably spend too much money on
+63. building small electronics projects
+64. playing guitar badly but enthusiastically
+65. trying to get better at photography
+66. reading history books
+67. building custom PCs
+68. learning enough woodworking to make decent furniture
+69. playing chess online
+70. collecting vinyl records
+71. experimenting with new recipes
+72. working through a never-ending list of home improvement projects
+73. playing pickup soccer
+74. drawing and doing digital art
+75. watching old horror movies
+76. learning a new language
+77. gardening on my patio
+78. playing strategy games
+79. editing little travel videos
+80. trying to improve my golf swing
+81. tinkering with vintage bicycles in the garage
+82. working on an old car I probably spend too much money on
+83. building small electronics projects
+84. playing guitar badly but enthusiastically
+85. trying to get better at photography
+86. reading history books
+87. building custom PCs
+88. learning enough woodworking to make decent furniture
+89. playing chess online
+90. collecting vinyl records
+91. experimenting with new recipes
+92. working through a never-ending list of home improvement projects
+93. playing pickup soccer
+94. drawing and doing digital art
+95. watching old horror movies
+96. learning a new language
+97. gardening on my patio
+98. playing strategy games
+99. editing little travel videos
+100. trying to improve my golf swing
+
+100 FOOD PREFERENCES
+----------------------------------------------------------------------
+1. spicy Thai food
+2. really good tacos
+3. the best ramen I can find
+4. wood-fired pizza
+5. Korean barbecue
+6. Indian curry
+7. good sushi
+8. Vietnamese pho
+9. proper barbecue
+10. a great cheeseburger
+11. Mediterranean food
+12. fresh pasta
+13. Chinese dumplings
+14. Mexican street food
+15. Cajun food
+16. Greek food
+17. breakfast burritos
+18. fried chicken
+19. seafood
+20. a good bowl of chili
+21. spicy Thai food
+22. really good tacos
+23. the best ramen I can find
+24. wood-fired pizza
+25. Korean barbecue
+26. Indian curry
+27. good sushi
+28. Vietnamese pho
+29. proper barbecue
+30. a great cheeseburger
+31. Mediterranean food
+32. fresh pasta
+33. Chinese dumplings
+34. Mexican street food
+35. Cajun food
+36. Greek food
+37. breakfast burritos
+38. fried chicken
+39. seafood
+40. a good bowl of chili
+41. spicy Thai food
+42. really good tacos
+43. the best ramen I can find
+44. wood-fired pizza
+45. Korean barbecue
+46. Indian curry
+47. good sushi
+48. Vietnamese pho
+49. proper barbecue
+50. a great cheeseburger
+51. Mediterranean food
+52. fresh pasta
+53. Chinese dumplings
+54. Mexican street food
+55. Cajun food
+56. Greek food
+57. breakfast burritos
+58. fried chicken
+59. seafood
+60. a good bowl of chili
+61. spicy Thai food
+62. really good tacos
+63. the best ramen I can find
+64. wood-fired pizza
+65. Korean barbecue
+66. Indian curry
+67. good sushi
+68. Vietnamese pho
+69. proper barbecue
+70. a great cheeseburger
+71. Mediterranean food
+72. fresh pasta
+73. Chinese dumplings
+74. Mexican street food
+75. Cajun food
+76. Greek food
+77. breakfast burritos
+78. fried chicken
+79. seafood
+80. a good bowl of chili
+81. spicy Thai food
+82. really good tacos
+83. the best ramen I can find
+84. wood-fired pizza
+85. Korean barbecue
+86. Indian curry
+87. good sushi
+88. Vietnamese pho
+89. proper barbecue
+90. a great cheeseburger
+91. Mediterranean food
+92. fresh pasta
+93. Chinese dumplings
+94. Mexican street food
+95. Cajun food
+96. Greek food
+97. breakfast burritos
+98. fried chicken
+99. seafood
+100. a good bowl of chili
