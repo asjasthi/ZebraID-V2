@@ -3,7 +3,6 @@ import json
 import re
 import secrets
 from pathlib import Path
-from textwrap import dedent
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -44,56 +43,19 @@ st.markdown(
 
     .block-container {
         max-width: 1180px;
-        padding-top: 4.25rem;
+        padding-top: 3rem;
         padding-bottom: 2.5rem;
-    }
-
-    .zebra-brand {
-        color: var(--zebra-ink);
-        font-size: 1.2rem;
-        font-weight: 750;
-        letter-spacing: -0.02em;
-        margin-bottom: 1.4rem;
-    }
-
-    .zebra-eyebrow {
-        color: var(--zebra-blue);
-        font-size: 0.82rem;
-        font-weight: 750;
-        letter-spacing: 0.12em;
-        margin-bottom: 0.8rem;
-    }
-
-    .zebra-hero h1 {
-        color: var(--zebra-ink);
-        font-size: clamp(2.2rem, 4vw, 3.35rem);
-        font-weight: 780;
-        letter-spacing: -0.045em;
-        line-height: 1.04;
-        margin: 0 0 1rem 0;
-        max-width: 760px;
-    }
-
-    .zebra-hero p {
-        color: var(--zebra-muted);
-        font-size: 1.02rem;
-        line-height: 1.65;
-        margin: 0;
-        max-width: 720px;
-    }
-
-    .zebra-spacer {
-        height: 1.75rem;
     }
 
     div[data-testid="stVerticalBlockBorderWrapper"] {
         background: var(--zebra-card);
         border: 1px solid var(--zebra-border);
         border-radius: 18px;
-        box-shadow: 0 5px 18px rgba(16, 24, 40, 0.04);
+        box-shadow:
+            0 5px 18px rgba(16, 24, 40, 0.04);
     }
 
-    /* Make the customization card the main focus */
+    /* Highlight the customization card */
     div[data-testid="stHorizontalBlock"]
     > div[data-testid="stColumn"]:first-child
     div[data-testid="stVerticalBlockBorderWrapper"] {
@@ -103,7 +65,8 @@ st.markdown(
             #F7F9FF 100%
         );
         border: 2px solid var(--zebra-blue);
-        box-shadow: 0 12px 30px rgba(59, 91, 219, 0.12);
+        box-shadow:
+            0 12px 30px rgba(59, 91, 219, 0.12);
     }
 
     .primary-step {
@@ -148,7 +111,8 @@ st.markdown(
     .stButton > button[kind="primary"]:hover {
         background: var(--zebra-blue-dark);
         border-color: var(--zebra-blue-dark);
-        box-shadow: 0 5px 14px rgba(59, 91, 219, 0.22);
+        box-shadow:
+            0 5px 14px rgba(59, 91, 219, 0.22);
         transform: translateY(-1px);
     }
 
@@ -173,7 +137,7 @@ st.markdown(
 
     @media (max-width: 800px) {
         .block-container {
-            padding-top: 3.5rem;
+            padding-top: 2rem;
         }
     }
     </style>
@@ -183,7 +147,7 @@ st.markdown(
 
 
 # ---------------------------------------------------------
-# READ AND VALIDATE DATA
+# READ THE DATA FILE
 # ---------------------------------------------------------
 
 def numbered_value(line):
@@ -213,7 +177,8 @@ def read_data(data_file=str(DEFAULT_DATA_FILE)):
         "100 FIRST NAMES": "names",
         "100 LOCATIONS": "locations",
         "100 CAREER PROFILES": "careers",
-        "100 RELATIONSHIP DESCRIPTIONS": "relationships",
+        "100 RELATIONSHIP DESCRIPTIONS":
+            "relationships",
         "100 WEEKEND ACTIVITIES": "weekends",
         "100 PET DESCRIPTIONS": "pets",
         "100 HOBBIES": "hobbies",
@@ -587,7 +552,7 @@ def render_copy_button(text):
 
 
 # ---------------------------------------------------------
-# INITIAL BIOGRAPHY
+# CREATE THE FIRST BIOGRAPHY
 # ---------------------------------------------------------
 
 def initialize_biography():
@@ -595,49 +560,10 @@ def initialize_biography():
         biography = generate_biography()
 
         st.session_state.biography = biography
+
         st.session_state.biography_editor = (
             biography
         )
-
-
-# ---------------------------------------------------------
-# TOP OF WEBSITE
-# ---------------------------------------------------------
-
-st.markdown(
-    '<div class="zebra-brand">'
-    '🦓 ZebraID'
-    '</div>',
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    dedent(
-        """
-        <section class="zebra-hero">
-            <div class="zebra-eyebrow">
-                RANDOM. REALISTIC. UNIQUE.
-            </div>
-
-            <h1>
-                Generate a Random<br>
-                Persona Biography
-            </h1>
-
-            <p>
-                Create a realistic fictional person
-                with a unique background, career,
-                interests, and more. Customize a few
-                details or leave everything blank for
-                a completely random result.
-            </p>
-        </section>
-
-        <div class="zebra-spacer"></div>
-        """
-    ),
-    unsafe_allow_html=True,
-)
 
 
 try:
@@ -652,7 +578,7 @@ except (
 
 
 # ---------------------------------------------------------
-# TWO-COLUMN LAYOUT
+# MAIN TWO-COLUMN LAYOUT
 # ---------------------------------------------------------
 
 left, right = st.columns(
@@ -662,7 +588,7 @@ left, right = st.columns(
 
 
 # ---------------------------------------------------------
-# LEFT: MAIN CUSTOMIZATION AREA
+# LEFT: CUSTOMIZATION
 # ---------------------------------------------------------
 
 with left:
@@ -816,7 +742,7 @@ with left:
 
 
 # ---------------------------------------------------------
-# RIGHT: SECONDARY BIOGRAPHY PREVIEW
+# RIGHT: BIOGRAPHY PREVIEW
 # ---------------------------------------------------------
 
 with right:
@@ -860,7 +786,7 @@ with right:
 
 
 # ---------------------------------------------------------
-# SIMPLE FOOTER
+# FOOTER
 # ---------------------------------------------------------
 
 st.markdown(
