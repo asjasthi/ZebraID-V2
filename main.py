@@ -3,6 +3,7 @@ import json
 import re
 import secrets
 from pathlib import Path
+from textwrap import dedent
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -12,10 +13,6 @@ DEFAULT_DATA_FILE = Path(__file__).with_name(
     "ZebraID_V2_Natural_Data.txt"
 )
 
-
-# ---------------------------------------------------------
-# PAGE SETTINGS
-# ---------------------------------------------------------
 
 st.set_page_config(
     page_title="ZebraID | Random Persona Generator",
@@ -33,12 +30,12 @@ st.markdown(
     """
     <style>
     :root {
-        --blue: #3B5BDB;
-        --dark-blue: #2F4BB8;
-        --text: #101828;
-        --muted: #667085;
-        --border: #E4E7EC;
-        --white: #FFFFFF;
+        --zebra-blue: #3B5BDB;
+        --zebra-blue-dark: #2F4BB8;
+        --zebra-ink: #101828;
+        --zebra-muted: #667085;
+        --zebra-border: #E4E7EC;
+        --zebra-card: #FFFFFF;
     }
 
     .stApp {
@@ -47,19 +44,20 @@ st.markdown(
 
     .block-container {
         max-width: 1180px;
-        padding-top: 1.75rem;
-        padding-bottom: 3.5rem;
+        padding-top: 4.25rem;
+        padding-bottom: 2.5rem;
     }
 
     .zebra-brand {
-        color: var(--text);
-        font-size: 1.25rem;
+        color: var(--zebra-ink);
+        font-size: 1.2rem;
         font-weight: 750;
-        margin-bottom: 3rem;
+        letter-spacing: -0.02em;
+        margin-bottom: 1.4rem;
     }
 
     .zebra-eyebrow {
-        color: var(--blue);
+        color: var(--zebra-blue);
         font-size: 0.82rem;
         font-weight: 750;
         letter-spacing: 0.12em;
@@ -67,8 +65,8 @@ st.markdown(
     }
 
     .zebra-hero h1 {
-        color: var(--text);
-        font-size: clamp(2.35rem, 5vw, 4rem);
+        color: var(--zebra-ink);
+        font-size: clamp(2.2rem, 4vw, 3.35rem);
         font-weight: 780;
         letter-spacing: -0.045em;
         line-height: 1.04;
@@ -77,30 +75,58 @@ st.markdown(
     }
 
     .zebra-hero p {
-        color: var(--muted);
-        font-size: 1.08rem;
+        color: var(--zebra-muted);
+        font-size: 1.02rem;
         line-height: 1.65;
         margin: 0;
         max-width: 720px;
     }
 
     .zebra-spacer {
-        height: 2.25rem;
+        height: 1.75rem;
     }
 
     div[data-testid="stVerticalBlockBorderWrapper"] {
-        background: var(--white);
-        border: 1px solid var(--border);
+        background: var(--zebra-card);
+        border: 1px solid var(--zebra-border);
         border-radius: 18px;
-        box-shadow: 0 8px 24px rgba(16, 24, 40, 0.05);
+        box-shadow: 0 5px 18px rgba(16, 24, 40, 0.04);
     }
 
-    h1, h2, h3, label {
-        color: var(--text);
+    /* Make the customization card the main focus */
+    div[data-testid="stHorizontalBlock"]
+    > div[data-testid="stColumn"]:first-child
+    div[data-testid="stVerticalBlockBorderWrapper"] {
+        background: linear-gradient(
+            180deg,
+            #FFFFFF 0%,
+            #F7F9FF 100%
+        );
+        border: 2px solid var(--zebra-blue);
+        box-shadow: 0 12px 30px rgba(59, 91, 219, 0.12);
+    }
+
+    .primary-step {
+        display: inline-block;
+        color: var(--zebra-blue);
+        background: #EEF2FF;
+        border-radius: 999px;
+        font-size: 0.73rem;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        padding: 0.35rem 0.6rem;
+        margin-bottom: 0.25rem;
+    }
+
+    h2,
+    h3,
+    label,
+    .stMarkdown {
+        color: var(--zebra-ink);
     }
 
     div[data-testid="stCaptionContainer"] {
-        color: var(--muted);
+        color: var(--zebra-muted);
     }
 
     .stButton > button {
@@ -108,18 +134,22 @@ st.markdown(
         border-radius: 10px;
         font-size: 1rem;
         font-weight: 650;
+        transition:
+            transform 120ms ease,
+            box-shadow 120ms ease;
     }
 
     .stButton > button[kind="primary"] {
-        background: var(--blue);
-        border-color: var(--blue);
+        background: var(--zebra-blue);
+        border-color: var(--zebra-blue);
         color: #FFFFFF;
     }
 
     .stButton > button[kind="primary"]:hover {
-        background: var(--dark-blue);
-        border-color: var(--dark-blue);
+        background: var(--zebra-blue-dark);
+        border-color: var(--zebra-blue-dark);
         box-shadow: 0 5px 14px rgba(59, 91, 219, 0.22);
+        transform: translateY(-1px);
     }
 
     .stTextInput input,
@@ -136,33 +166,6 @@ st.markdown(
         padding: 1rem;
     }
 
-    .zebra-benefits {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-        margin-top: 2.5rem;
-    }
-
-    .zebra-benefit {
-        background: #FFFFFF;
-        border: 1px solid var(--border);
-        border-radius: 14px;
-        padding: 1.1rem;
-    }
-
-    .zebra-benefit strong {
-        color: var(--text);
-        display: block;
-        font-size: 0.98rem;
-        margin-bottom: 0.25rem;
-    }
-
-    .zebra-benefit span {
-        color: var(--muted);
-        font-size: 0.87rem;
-        line-height: 1.4;
-    }
-
     footer,
     #MainMenu {
         visibility: hidden;
@@ -170,21 +173,7 @@ st.markdown(
 
     @media (max-width: 800px) {
         .block-container {
-            padding-top: 1rem;
-        }
-
-        .zebra-brand {
-            margin-bottom: 2rem;
-        }
-
-        .zebra-benefits {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media (max-width: 520px) {
-        .zebra-benefits {
-            grid-template-columns: 1fr;
+            padding-top: 3.5rem;
         }
     }
     </style>
@@ -194,11 +183,14 @@ st.markdown(
 
 
 # ---------------------------------------------------------
-# READ THE DATA FILE
+# READ AND VALIDATE DATA
 # ---------------------------------------------------------
 
 def numbered_value(line):
-    match = re.match(r"^\d+\.\s+(.+)$", line.strip())
+    match = re.match(
+        r"^\d+\.\s+(.+)$",
+        line.strip(),
+    )
 
     if match:
         return match.group(1).strip()
@@ -286,7 +278,9 @@ def insert_age(biography, age):
     if age is None:
         return biography
 
-    age_sentence = f" I'm {int(age)} years old."
+    age_sentence = (
+        f" I'm {int(age)} years old."
+    )
 
     abbreviations = {
         "st",
@@ -296,8 +290,13 @@ def insert_age(biography, age):
         "dr",
     }
 
-    for match in re.finditer(r"\.\s", biography):
-        preceding_text = biography[:match.start()]
+    for match in re.finditer(
+        r"\.\s",
+        biography,
+    ):
+        preceding_text = biography[
+            :match.start()
+        ]
 
         preceding_word = re.search(
             r"([A-Za-z]+)$",
@@ -352,7 +351,11 @@ def generate_biography(
     )
 
     try:
-        random_job, random_education, reason = [
+        (
+            random_job,
+            random_education,
+            reason,
+        ) = [
             part.strip()
             for part in career.split("|", 2)
         ]
@@ -377,11 +380,14 @@ def generate_biography(
         "Random": secrets.choice(
             data["relationships"]
         ),
-        "Single": "I'm currently single",
-        "Dating": "I'm currently dating someone",
+        "Single":
+            "I'm currently single",
+        "Dating":
+            "I'm currently dating someone",
         "In a relationship":
             "I'm in a committed relationship",
-        "Married": "I'm married",
+        "Married":
+            "I'm married",
     }
 
     relationship = relationship_options[
@@ -421,10 +427,14 @@ def generate_biography(
 
     if "[AGE]" in result:
         if age_override is not None:
-            age_value = str(int(age_override))
+            age_value = str(
+                int(age_override)
+            )
         else:
             age_value = str(
-                secrets.choice(range(21, 87))
+                secrets.choice(
+                    range(21, 87)
+                )
             )
 
         result = result.replace(
@@ -522,9 +532,7 @@ def render_copy_button(text):
                 );
 
                 temporary.select();
-
                 document.execCommand("copy");
-
                 temporary.remove();
             }}
 
@@ -587,7 +595,9 @@ def initialize_biography():
         biography = generate_biography()
 
         st.session_state.biography = biography
-        st.session_state.biography_editor = biography
+        st.session_state.biography_editor = (
+            biography
+        )
 
 
 # ---------------------------------------------------------
@@ -595,37 +605,37 @@ def initialize_biography():
 # ---------------------------------------------------------
 
 st.markdown(
-    """
-    <div class="zebra-brand">
-        🦓 ZebraID
-    </div>
-    """,
+    '<div class="zebra-brand">'
+    '🦓 ZebraID'
+    '</div>',
     unsafe_allow_html=True,
 )
 
 st.markdown(
-    """
-    <section class="zebra-hero">
-        <div class="zebra-eyebrow">
-            RANDOM. REALISTIC. UNIQUE.
-        </div>
+    dedent(
+        """
+        <section class="zebra-hero">
+            <div class="zebra-eyebrow">
+                RANDOM. REALISTIC. UNIQUE.
+            </div>
 
-        <h1>
-            Generate a Random<br>
-            Persona Biography
-        </h1>
+            <h1>
+                Generate a Random<br>
+                Persona Biography
+            </h1>
 
-        <p>
-            Create a realistic fictional person
-            with a unique background, career,
-            interests, and more. Customize a few
-            details or leave everything blank for
-            a completely random result.
-        </p>
-    </section>
+            <p>
+                Create a realistic fictional person
+                with a unique background, career,
+                interests, and more. Customize a few
+                details or leave everything blank for
+                a completely random result.
+            </p>
+        </section>
 
-    <div class="zebra-spacer"></div>
-    """,
+        <div class="zebra-spacer"></div>
+        """
+    ),
     unsafe_allow_html=True,
 )
 
@@ -633,32 +643,46 @@ st.markdown(
 try:
     initialize_biography()
 
-except (FileNotFoundError, ValueError) as error:
+except (
+    FileNotFoundError,
+    ValueError,
+) as error:
     st.error(str(error))
     st.stop()
 
 
 # ---------------------------------------------------------
-# TWO-COLUMN WEBSITE LAYOUT
+# TWO-COLUMN LAYOUT
 # ---------------------------------------------------------
 
 left, right = st.columns(
-    [0.92, 1.08],
+    [1.18, 0.82],
     gap="large",
 )
 
 
 # ---------------------------------------------------------
-# LEFT SIDE: CUSTOMIZATION
+# LEFT: MAIN CUSTOMIZATION AREA
 # ---------------------------------------------------------
 
 with left:
     with st.container(border=True):
-        st.subheader("⚙️ Customize")
+        st.markdown(
+            """
+            <span class="primary-step">
+                START HERE
+            </span>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        st.subheader(
+            "Customize your persona"
+        )
 
         st.caption(
-            "All fields are optional. "
-            "Blank fields stay random."
+            "Choose only what matters. "
+            "Blank fields stay completely random."
         )
 
         audience = st.radio(
@@ -792,28 +816,16 @@ with left:
 
 
 # ---------------------------------------------------------
-# RIGHT SIDE: BIOGRAPHY
+# RIGHT: SECONDARY BIOGRAPHY PREVIEW
 # ---------------------------------------------------------
 
 with right:
     with st.container(border=True):
-        heading_column, copy_column = (
-            st.columns([3.2, 1])
-        )
-
-        with heading_column:
-            st.subheader(
-                "📄 Generated Biography"
-            )
-
-        with copy_column:
-            render_copy_button(
-                st.session_state.biography_editor
-            )
+        st.subheader("Biography preview")
 
         st.caption(
-            "You can edit the text "
-            "before copying it."
+            "Review or edit the result, "
+            "then copy it when ready."
         )
 
         st.text_area(
@@ -821,6 +833,10 @@ with right:
             height=330,
             key="biography_editor",
             label_visibility="collapsed",
+        )
+
+        count_column, copy_column = (
+            st.columns([1.8, 1])
         )
 
         character_count = len(
@@ -831,59 +847,20 @@ with right:
             st.session_state.biography_editor.split()
         )
 
-        st.caption(
-            f"{word_count} words · "
-            f"{character_count} characters"
-        )
+        with count_column:
+            st.caption(
+                f"{word_count} words · "
+                f"{character_count} characters"
+            )
+
+        with copy_column:
+            render_copy_button(
+                st.session_state.biography_editor
+            )
 
 
 # ---------------------------------------------------------
-# BOTTOM BENEFITS
-# ---------------------------------------------------------
-
-st.markdown(
-    """
-    <section
-        class="zebra-benefits"
-        aria-label="ZebraID benefits"
-    >
-        <div class="zebra-benefit">
-            <strong>👤 Realistic</strong>
-            <span>
-                Natural details from curated data
-            </span>
-        </div>
-
-        <div class="zebra-benefit">
-            <strong>🔀 Highly varied</strong>
-            <span>
-                Millions of possible combinations
-            </span>
-        </div>
-
-        <div class="zebra-benefit">
-            <strong>⧉ Instant copy</strong>
-            <span>
-                Copy the complete biography
-                in one click
-            </span>
-        </div>
-
-        <div class="zebra-benefit">
-            <strong>🛡️ Fictional</strong>
-            <span>
-                Designed for creative and
-                testing projects
-            </span>
-        </div>
-    </section>
-    """,
-    unsafe_allow_html=True,
-)
-
-
-# ---------------------------------------------------------
-# FOOTER
+# SIMPLE FOOTER
 # ---------------------------------------------------------
 
 st.markdown(
